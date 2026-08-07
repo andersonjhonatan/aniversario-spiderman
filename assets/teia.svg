@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <g stroke="#ef3f43" stroke-linecap="round" stroke-linejoin="round">
+    <path
+      stroke-width="6"
+      d="M16 16H398M16 16L385 115M16 16L343 205M16 16L285 285M16 16L205 343M16 16L115 385M16 16V398"
+    />
+    <path
+      stroke-width="5"
+      d="M16 85A69 69 0 0 1 85 16M16 151A135 135 0 0 1 151 16M16 221A205 205 0 0 1 221 16M16 294A278 278 0 0 1 294 16M16 381A365 365 0 0 1 381 16"
+    />
+    <path
+      stroke-width="3"
+      d="M16 51A35 35 0 0 1 51 16M16 117A101 101 0 0 1 117 16M16 185A169 169 0 0 1 185 16M16 256A240 240 0 0 1 256 16M16 334A318 318 0 0 1 334 16"
+      opacity=".82"
+    />
+    <circle cx="16" cy="16" r="8" fill="#ef3f43" />
+  </g>
+</svg>

@@ -1,0 +1,483 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#103e91" />
+    <meta
+      name="description"
+      content="Pedro faz 6 anos. Um convite infantil do Homem-Aranha, cheio de aventura, brincadeiras e teias."
+    />
+    <meta property="og:title" content="Pedro faz 6 — convite do Homem-Aranha" />
+    <meta
+      property="og:description"
+      content="Você foi convocado para a grande missão do Homem-Aranha do Pedro!"
+    />
+    <title>Pedro faz 6 | Convite do Homem-Aranha</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Fredoka:wght@500;600;700&family=Nunito:wght@600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="intro-active">
+    <div class="intro" id="intro" aria-label="Abertura do convite">
+      <img
+        class="intro-web intro-web-one"
+        src="assets/teia.svg"
+        alt=""
+        aria-hidden="true"
+      />
+      <img
+        class="intro-web intro-web-two"
+        src="assets/teia.svg"
+        alt=""
+        aria-hidden="true"
+      />
+      <div class="intro-card">
+        <span class="intro-star">✦</span>
+        <p>Convite do Homem-Aranha</p>
+        <h1>Uma missão<br /><b>começou!</b></h1>
+        <div class="intro-mask"><i></i><i></i></div>
+        <button class="start-button" id="start-button" type="button">
+          Abrir convite <span>↓</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="scroll-progress" aria-hidden="true">
+      <span id="scroll-progress-bar"></span>
+    </div>
+    <a class="skip-link" href="#conteudo">Pular para o convite</a>
+
+    <main id="conteudo">
+      <section class="hero" id="inicio">
+        <div class="hero-dots" aria-hidden="true"></div>
+        <img
+          class="web hero-web-left"
+          src="assets/teia.svg"
+          alt=""
+          aria-hidden="true"
+        />
+        <img
+          class="web hero-web-right"
+          src="assets/teia.svg"
+          alt=""
+          aria-hidden="true"
+        />
+        <div class="floating-cloud cloud-a" aria-hidden="true"></div>
+        <div class="floating-cloud cloud-b" aria-hidden="true"></div>
+
+        <nav class="nav container" aria-label="Navegação principal">
+          <a href="#inicio" class="brand" aria-label="Início"
+            ><span>🕷</span> Pedro · Homem-Aranha</a
+          >
+          <div class="nav-links">
+            <a href="#detalhes">Missão</a><a href="#galeria">Momentos</a
+            ><a href="#local">Local</a>
+          </div>
+          <a class="nav-rsvp" href="#rsvp">Confirmar <span>↗</span></a>
+        </nav>
+
+        <div class="hero-content container">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span></span> Convocação do Homem-Aranha</p>
+            <h1>O Pedro<br />vai fazer <strong>6</strong><b>!</b></h1>
+            <p class="lead">
+              Você foi escolhido para uma tarde cheia de brincadeiras, doces e
+              aventuras de tirar o fôlego.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-yellow" href="#detalhes"
+                >Ver a missão <i>↓</i></a
+              >
+              <button
+                class="sound-toggle"
+                type="button"
+                id="sound-toggle"
+                aria-pressed="false"
+              >
+                <span>♪</span> Som da missão
+              </button>
+            </div>
+            <div class="hero-meta">
+              <span><i>18</i> OUT</span><b></b><span>sábado <i>15h</i></span>
+            </div>
+          </div>
+          <div
+            class="hero-stage reveal"
+            aria-label="Ilustração do Homem-Aranha em estilo infantil"
+          >
+            <div class="stage-rays" aria-hidden="true"></div>
+            <div class="number-six" aria-hidden="true">6</div>
+            <div class="hero-spider-frame">
+              <img
+                src="assets/homem-aranha-teia.jpeg"
+                class="mascot"
+                alt="Homem-Aranha apontando a teia"
+              />
+            </div>
+            <div class="hero-badge">
+              <span>✦</span><b>Dia de<br />festa!</b>
+            </div>
+            <div class="mini-bubble">Vem pra<br />teia!</div>
+          </div>
+        </div>
+        <div class="city" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Mensagem de celebração">
+        <div>
+          🕸️ &nbsp; HOMEM-ARANHA &nbsp; 🕸️ &nbsp; AVENTURA &nbsp; 🕸️ &nbsp;
+          BRINCADEIRA &nbsp; 🕸️ &nbsp; DOCES &nbsp; 🕸️ &nbsp; ALEGRIA &nbsp; 🕸️
+          &nbsp; HOMEM-ARANHA &nbsp; 🕸️ &nbsp; AVENTURA &nbsp; 🕸️ &nbsp;
+          BRINCADEIRA &nbsp; 🕸️ &nbsp; DOCES &nbsp; 🕸️ &nbsp; ALEGRIA &nbsp;
+        </div>
+      </section>
+
+      <section class="mission section container" id="detalhes">
+        <div class="section-heading reveal">
+          <p class="eyebrow dark"><span></span> Código da missão</p>
+          <h2>Tudo pronto para<br /><em>essa aventura!</em></h2>
+          <p>Guarde estas informações no seu radar de super-herói.</p>
+          <div class="heading-spider" aria-hidden="true">🕷️</div>
+        </div>
+        <div class="info-cards">
+          <article class="info-card red reveal">
+            <span class="card-number">01</span><span class="icon">📅</span>
+            <p>Quando</p>
+            <h3>18 de outubro</h3>
+            <small>Sábado, às 15h</small><i class="corner-star">✦</i>
+          </article>
+          <article class="info-card cream reveal">
+            <span class="card-number">02</span><span class="icon">📍</span>
+            <p>Onde</p>
+            <h3>Espaço Aventura</h3>
+            <small>Rua das Crianças, 123</small><i class="corner-star">✦</i>
+          </article>
+          <article class="info-card blue reveal">
+            <span class="card-number">03</span><span class="icon">🦸</span>
+            <p>Uniforme</p>
+            <h3>Venha de herói!</h3>
+            <small>Ou com a roupa que te faz feliz</small
+            ><i class="corner-star">✦</i>
+          </article>
+        </div>
+      </section>
+
+      <section class="countdown-section" aria-labelledby="countdown-title">
+        <div class="container countdown-layout">
+          <div class="countdown-copy reveal">
+            <p class="eyebrow"><span></span> Prepare o uniforme</p>
+            <h2 id="countdown-title">
+              A aventura está<br /><em>chegando!</em>
+            </h2>
+            <p>O relógio já está contando para essa grande missão.</p>
+          </div>
+          <div
+            class="countdown reveal"
+            aria-label="Contagem regressiva para a festa"
+          >
+            <div><b id="days">00</b><span>Dias</span></div>
+            <i>:</i>
+            <div><b id="hours">00</b><span>Horas</span></div>
+            <i>:</i>
+            <div><b id="minutes">00</b><span>Min</span></div>
+            <i>:</i>
+            <div><b id="seconds">00</b><span>Seg</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="experience section container"
+        aria-labelledby="experience-title"
+      >
+        <div class="experience-header reveal">
+          <div>
+            <p class="eyebrow dark"><span></span> Roteiro da aventura</p>
+            <h2 id="experience-title">
+              O que vai rolar<br /><em>nessa festa?</em>
+            </h2>
+          </div>
+          <p>
+            Uma tarde pensada para os pequenos se divertirem do começo ao fim.
+          </p>
+        </div>
+        <ol class="timeline">
+          <li class="reveal">
+            <b>15h</b><span class="timeline-icon">👋</span>
+            <div>
+              <h3>Chegada dos heróis</h3>
+              <p>
+                Recepção, música e muita animação para a turma entrar no clima.
+              </p>
+            </div>
+          </li>
+          <li class="reveal">
+            <b>16h</b><span class="timeline-icon">🕸️</span>
+            <div>
+              <h3>Desafio da teia</h3>
+              <p>Brincadeiras e jogos especiais para a equipe mais corajosa.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <b>17h</b><span class="timeline-icon">🎂</span>
+            <div>
+              <h3>Parabéns para o Pedro</h3>
+              <p>O grande momento com bolo, velinhas e muitos registros.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section
+        class="gallery section"
+        id="galeria"
+        aria-labelledby="gallery-title"
+      >
+        <div class="container">
+          <div class="gallery-heading reveal">
+            <p class="eyebrow dark"><span></span> Arquivo secreto</p>
+            <h2 id="gallery-title">
+              Momentos que<br /><em>vão ser incríveis.</em>
+            </h2>
+            <div class="gallery-controls">
+              <button id="gallery-prev" aria-label="Foto anterior">←</button
+              ><button id="gallery-next" aria-label="Próxima foto">→</button>
+            </div>
+          </div>
+          <div
+            class="gallery-viewport reveal"
+            tabindex="0"
+            aria-label="Galeria de momentos da festa"
+          >
+            <div class="gallery-track" id="gallery-track">
+              <article class="gallery-card card-game">
+                <img
+                  src="assets/homem-aranha-acrobata.jpeg"
+                  alt="Homem-Aranha em pose de ação"
+                />
+                <p>Desafio da teia</p>
+                <small>Brincadeiras para todos os heróis</small>
+              </article>
+              <article class="gallery-card card-cake">
+                <img
+                  src="assets/homem-aranha-mini.jpeg"
+                  alt="Homem-Aranha infantil"
+                />
+                <p>Hora do bolo</p>
+                <small>Doces e velinhas para comemorar</small>
+              </article>
+              <article class="gallery-card card-team">
+                <img
+                  src="assets/homem-aranha-teia.jpeg"
+                  alt="Homem-Aranha soltando teia"
+                />
+                <p>Super equipe</p>
+                <small>Amigos reunidos na missão</small>
+              </article>
+              <article class="gallery-card card-photo">
+                <span>📸</span>
+                <p>Memórias</p>
+                <small>Muitas fotos para guardar</small>
+              </article>
+            </div>
+          </div>
+          <div
+            class="gallery-dots"
+            id="gallery-dots"
+            aria-label="Selecionar imagem"
+          ></div>
+        </div>
+      </section>
+
+      <section
+        class="location section container"
+        id="local"
+        aria-labelledby="location-title"
+      >
+        <div
+          class="map-card reveal"
+          aria-label="Mapa ilustrativo do Espaço Aventura"
+        >
+          <div class="map-road road-one"></div>
+          <div class="map-road road-two"></div>
+          <div class="map-road road-three"></div>
+          <span class="map-tree tree-one">✦</span
+          ><span class="map-tree tree-two">✦</span
+          ><span class="map-tree tree-three">✦</span>
+          <div class="map-pin">
+            <span>📍</span><b>Espaço<br />Aventura</b>
+          </div>
+          <div class="map-label label-one">Praça da<br />Alegria</div>
+          <div class="map-label label-two">Rua das<br />Crianças</div>
+          <div class="map-route"><span></span><span></span><span></span></div>
+        </div>
+        <div class="location-copy reveal">
+          <p class="eyebrow dark"><span></span> Base da missão</p>
+          <h2 id="location-title">A gente te<br /><em>espera aqui!</em></h2>
+          <p>
+            O Espaço Aventura é a nossa base oficial para essa tarde de
+            diversão. Chegue com energia e vontade de brincar.
+          </p>
+          <div class="address">
+            <span>📍</span>
+            <div>
+              <b>Espaço Aventura</b
+              ><small>Rua das Crianças, 123<br />Vila da Alegria</small>
+            </div>
+          </div>
+          <button class="button button-blue" id="map-button" type="button">
+            Ver rota no mapa <i>↗</i>
+          </button>
+        </div>
+      </section>
+
+      <section class="rsvp-section" id="rsvp">
+        <div class="container rsvp-layout">
+          <div class="rsvp-copy reveal">
+            <p class="eyebrow"><span></span> Chamada da equipe</p>
+            <h2>Você vem<br /><em>salvar o dia?</em></h2>
+            <p>
+              Confirme sua presença para o Pedro saber quais amigos estarão
+              nessa grande missão.
+            </p>
+            <div class="rsvp-quote">
+              Sua presença vai deixar essa festa ainda mais incrível! <b>♥</b>
+            </div>
+            <img
+              class="rsvp-mascot"
+              src="assets/homem-aranha-mini.jpeg"
+              alt=""
+              aria-hidden="true"
+            />
+          </div>
+          <form class="rsvp-form reveal" id="rsvp-form" novalidate>
+            <div class="form-top"><span>CONFIRMAÇÃO</span><b>✦</b></div>
+            <label for="guest-name">Nome do convidado</label
+            ><input
+              id="guest-name"
+              name="guest-name"
+              autocomplete="name"
+              placeholder="Digite seu nome"
+              required
+            />
+            <fieldset>
+              <legend>Você vai nessa aventura?</legend>
+              <div class="choice-group">
+                <label class="choice"
+                  ><input
+                    type="radio"
+                    name="attendance"
+                    value="vou sim"
+                    checked
+                  /><span>✓</span> Eu vou!</label
+                ><label class="choice"
+                  ><input
+                    type="radio"
+                    name="attendance"
+                    value="não vou conseguir ir"
+                  /><span>–</span> Não vou conseguir</label
+                >
+              </div>
+            </fieldset>
+            <label for="guests">Quantas pessoas vão com você?</label
+            ><select id="guests" name="guests">
+              <option value="1">Só eu</option>
+              <option value="2">2 pessoas</option>
+              <option value="3">3 pessoas</option>
+              <option value="4+">4 ou mais</option>
+            </select>
+            <button class="button button-red" type="submit">
+              Confirmar pelo WhatsApp <i>↗</i></button
+            ><button type="button" class="copy-message" id="copy-message">
+              Copiar mensagem
+            </button>
+            <p
+              id="form-feedback"
+              class="form-feedback"
+              role="status"
+              aria-live="polite"
+            ></p>
+          </form>
+        </div>
+      </section>
+
+      <section class="faq section container" aria-labelledby="faq-title">
+        <div class="faq-heading reveal">
+          <p class="eyebrow dark"><span></span> Central de ajuda</p>
+          <h2 id="faq-title">Dúvidas dos<br /><em>super convidados.</em></h2>
+        </div>
+        <div class="accordion reveal" id="accordion">
+          <article>
+            <button aria-expanded="false">
+              <span>Preciso ir fantasiado?</span><b>+</b>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Não precisa! A fantasia é uma brincadeira. Venha com a roupa que
+                te deixa mais confortável e feliz.
+              </p>
+            </div>
+          </article>
+          <article>
+            <button aria-expanded="false">
+              <span>Posso levar acompanhante?</span><b>+</b>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Sim. Informe no RSVP quantas pessoas irão com você para a equipe
+                organizar tudo direitinho.
+              </p>
+            </div>
+          </article>
+          <article>
+            <button aria-expanded="false">
+              <span>Como confirmo minha presença?</span><b>+</b>
+            </button>
+            <div class="accordion-content">
+              <p>
+                É só preencher o formulário acima. No convite real, ele abre o
+                WhatsApp do responsável já com a mensagem pronta.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <button
+      class="to-top"
+      id="to-top"
+      type="button"
+      aria-label="Voltar ao início"
+    >
+      ↑
+    </button>
+    <footer>
+      <div class="container">
+        <a href="#inicio" class="brand"><span>🕷</span> Pedro · Homem-Aranha</a>
+        <p>Um convite demonstrativo para portfólio.</p>
+        <span>tema homem-aranha • 6 anos</span>
+      </div>
+    </footer>
+    <dialog id="map-dialog">
+      <button class="dialog-close" id="dialog-close" aria-label="Fechar">
+        ×</button
+      ><span>📍</span>
+      <h2>Espaço Aventura</h2>
+      <p>Rua das Crianças, 123<br />Vila da Alegria</p>
+      <small
+        >Mapa ilustrativo para demonstração. No projeto entregue, este botão
+        pode abrir o Google Maps com o endereço real.</small
+      >
+    </dialog>
+    <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
